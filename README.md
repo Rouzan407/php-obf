@@ -8,4 +8,4 @@ Obfuscate your PHP code into unreadable format and hard to reverse engineer. Ins
 # Before Obfuscated
 `<?php echo 'Hello World';`
 # After Obfuscated
-<img src='src/Screenshot_20250713-163903.jpg'
+<img src='src/Screenshot_20250713-163903.jpg' />
