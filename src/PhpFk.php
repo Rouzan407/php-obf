@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace bviguier\PhpFk;
+//namespace bviguier\PhpFk;
 
 function obfuscateCode(string $code): string
 {
