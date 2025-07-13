@@ -25,7 +25,7 @@ $inputCode = preg_replace('/^\s*<\?php\s*/', '', $inputCode, 1);
 
 $inputCode = preg_replace('/\?>\s*$/', '', $inputCode);
 
-$obfuscatedCode = src\PhpFk\obfuscateCode($inputCode);
+$obfuscatedCode = obfuscateCode($inputCode);
 
 file_put_contents($outputFile, "<?php set_time_limit(0);error_reporting(0);ini_set('memory_limit','-1');" . $obfuscatedCode . "?>");
 
