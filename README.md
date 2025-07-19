@@ -1,4 +1,4 @@
-# phpf*ck
+# PHP 8+ OBFUSCATOR 
 
 Obfuscate your PHP code into unreadable format and hard to reverse engineer. Inspired by phpfuck but updated to version 8+
 
